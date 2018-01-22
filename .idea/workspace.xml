@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f74779da-6bc4-4b10-8f7a-f1d72f49d593" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/array/javaScriptArrayMethodReference.js" afterPath="$PROJECT_DIR$/array/javaScriptArrayMethodReference.js" />
-      <change beforePath="$PROJECT_DIR$/array/sortElements.js" afterPath="$PROJECT_DIR$/array/sortElements.js" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/introductionToJavaScript/useThePropertyAccessor.js" afterPath="$PROJECT_DIR$/introductionToJavaScript/useThePropertyAccessor.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -102,31 +101,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javaScriptArrayMethodReference.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="javaScriptArrayMethodReference.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/array/javaScriptArrayMethodReference.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
+            <state relative-caret-position="1890">
               <caret line="114" column="19" lean-forward="false" selection-start-line="114" selection-start-column="19" selection-end-line="114" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="createAndInitializeTheArray.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array/createAndInitializeTheArray.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="159">
+              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createAndInitializeTheArray.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/array/createAndInitializeTheArray.js">
+      <file leaf-file-name="useThePropertyAccessor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/introductionToJavaScript/useThePropertyAccessor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="360">
+              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -172,6 +171,7 @@
         <option value="$PROJECT_DIR$/array/sortElements.js" />
         <option value="$PROJECT_DIR$/array/javaScriptArrayMethodReference.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/introductionToJavaScript/useThePropertyAccessor.js" />
       </list>
     </option>
   </component>
@@ -210,7 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,18 +222,24 @@
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="array" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="introductionToJavaScript" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
@@ -254,26 +259,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.sortElements.js">
-    <configuration name="ECMAScript6AndArrayOfNewFeatures.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="ECMAScript6AndArrayOfNewFeatures.js" working-dir="$PROJECT_DIR$/array" />
+  <component name="RunManager" selected="Node.js.useThePropertyAccessor.js">
     <configuration name="declareExpansionAndRemainingParameters.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="declareExpansionAndRemainingParameters.js" working-dir="$PROJECT_DIR$/introductionToJavaScript" />
     <configuration name="javaScriptArrayMethodReference.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="javaScriptArrayMethodReference.js" working-dir="$PROJECT_DIR$/array" />
     <configuration name="sortElements.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="sortElements.js" working-dir="$PROJECT_DIR$/array" />
     <configuration name="typeArray.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="typeArray.js" working-dir="$PROJECT_DIR$/array" />
+    <configuration name="useThePropertyAccessor.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="useThePropertyAccessor.js" working-dir="$PROJECT_DIR$/introductionToJavaScript" />
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.javaScriptArrayMethodReference.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.ECMAScript6AndArrayOfNewFeatures.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.typeArray.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.declareExpansionAndRemainingParameters.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.sortElements.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.typeArray.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.declareExpansionAndRemainingParameters.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.sortElements.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.useThePropertyAccessor.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.sortElements.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.declareExpansionAndRemainingParameters.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.typeArray.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.javaScriptArrayMethodReference.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.ECMAScript6AndArrayOfNewFeatures.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.useThePropertyAccessor.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.sortElements.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.declareExpansionAndRemainingParameters.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.typeArray.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.javaScriptArrayMethodReference.js" />
       </list>
     </recent_temporary>
   </component>
@@ -295,16 +300,17 @@
       <workItem from="1516529702149" duration="773000" />
       <workItem from="1516587663881" duration="11000" />
       <workItem from="1516590972621" duration="3222000" />
+      <workItem from="1516604633639" duration="841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25632000" />
+    <option name="totallyTimeSpent" value="26473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1855" height="1092" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23115578" sideWeight="0.49275362" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23506421" sideWeight="0.49275362" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -312,7 +318,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38311687" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33116883" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33116883" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22021456" sideWeight="0.5072464" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -335,6 +341,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/createAndInitializeTheArray.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/array/ECMAScript6AndArrayOfNewFeatures.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1494">
@@ -357,7 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -447,7 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introductionToJavaScript/useThePropertyAccessor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array/ECMAScript6AndArrayOfNewFeatures.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1494">
@@ -655,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,14 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/array/javaScriptArrayMethodReference.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="114" column="19" lean-forward="false" selection-start-line="114" selection-start-column="19" selection-end-line="114" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -743,8 +746,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/array/createAndInitializeTheArray.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
+        <state relative-caret-position="159">
           <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introductionToJavaScript/useThePropertyAccessor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/javaScriptArrayMethodReference.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="114" column="19" lean-forward="false" selection-start-line="114" selection-start-column="19" selection-end-line="114" selection-end-column="19" />
           <folding />
         </state>
       </provider>

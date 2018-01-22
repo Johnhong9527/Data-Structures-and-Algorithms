@@ -14,8 +14,8 @@ class Person {
 }
 
 let lotrChar = new Person('Fordo');
-console.log(lotrChar.name);
+console.log(lotrChar.name); // Fordo
 lotrChar.name = 'Gandalf';
-console.log(lotrChar.name);
+console.log(lotrChar.name); // Gandalf
 lotrChar.name = 'Sam';
-console.log(lotrChar.name);
+console.log(lotrChar.name); // Sam
