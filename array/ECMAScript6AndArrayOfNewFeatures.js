@@ -42,7 +42,7 @@ console.log(numbers.findIndex(multipleOf13)); // 12*/
 /*
 find 和 findIndex 的不同之处在于, find 方法返回第一个满足条件的值, findIndex 方法
 则返回这个值在数组里的索引。如果没有满足条件的值, find 会返回 undefined ,而 findIndex
-返回 -1 。
+返回 -1.
  */
 
 
@@ -61,17 +61,20 @@ let ones = Array(5).fill('1');
 console.log(typeof ones[0])*/
 
 
-// from         根据已有数组创建一个新数组
+// from          根据已有数组创建一个新数组,不共享内存
 /*let numbers2 = Array.from(numbers);
-let evens = Array.from(numbers, x => (x % 2 == 0));  /!*[ false,true,false,true,false,true,false,true,false,true,false,true,false,true,false ]*!/
-console.log(evens)*/
+// 还可以传入一个用来过滤值的函数
+// let evens = Array.from(numbers, x => (x % 2 == 0));  /!*[ false,true,false,true,false,true,false,true,false,true,false,true,false,true,false ]*!/
+numbers[0]=12
+console.log(numbers)
+console.log(numbers2)*/
 
 
 // keys         返回包含数组所有索引的 @@iterator
 /*let aKeys = numbers.keys();
 console.log(aKeys.next()) // { value: 0, done: false }
 // .....一旦没有可迭代的值, aKeys.next() 就会返回一个
-value 属性为 undefined , done 属性为 true 的对象。如果 done 属性的值为 false ,就意味着还有可迭代的值。
+// value 属性为 undefined , done 属性为 true 的对象。如果 done 属性的值为 false ,就意味着还有可迭代的值。
 console.log(aKeys.next()) // { value: 9, done: false }*/
 
 

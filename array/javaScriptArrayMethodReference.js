@@ -131,3 +131,11 @@ let sumN = numbers.reduce(function (previous, current, index, array) {
   return previous + current;
 });
 console.log(sumN) // 120*/
+let sumN = numbers.reduce(function (previous, current, index, array) {
+  // console.log(previous)
+  console.log(current)
+  // console.log(index)
+  // console.log(array)
+  return previous + current;
+});
+console.log(sumN) // 120
