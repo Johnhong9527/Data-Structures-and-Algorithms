@@ -44,7 +44,7 @@ for (let n of numbers) {
 // console.log(numbersString) /*1-2-3-4-5-6-7-8-9-10-11-12-13-14-15*/
 
 // indexOf 返回第一个与给定参数相等的数组元素的索引,没有找到则返回-1
-// console.log(numbers.indexOf(10));  // 9
+// console.log(numbers.indexOf(10)); // 9
 // console.log(numbers.indexOf(100)); // -1
 
 // lastIndexOf 返回在数组中搜索到的与给定参数相等的元素的索引里最大的值
