@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f74779da-6bc4-4b10-8f7a-f1d72f49d593" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/stack/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/stack/useTheStackToSolveTheProblem.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/stack/stackDataStructure.js" afterPath="$PROJECT_DIR$/stack/stackDataStructure.js" />
     </list>
@@ -32,34 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conditionalStatements.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introductionToJavaScript/conditionalStatements.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="8" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="declareExpansionAndRemainingParameters.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/introductionToJavaScript/declareExpansionAndRemainingParameters.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="two-dimensionalAndMulti-dimensionalArray.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array/two-dimensionalAndMulti-dimensionalArray.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state relative-caret-position="540">
               <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -121,9 +99,31 @@
       <file leaf-file-name="stackDataStructure.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stack/stackDataStructure.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+            <state relative-caret-position="-227">
+              <caret line="86" column="26" lean-forward="true" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stack/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="useTheStackToSolveTheProblem.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stack/useTheStackToSolveTheProblem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="860">
+              <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,6 +170,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/array/javaScriptArrayMethodReference.js" />
         <option value="$PROJECT_DIR$/array/ECMAScript6AndArrayOfNewFeatures.js" />
+        <option value="$PROJECT_DIR$/stack/useTheStackToSolveTheProblem.js" />
+        <option value="$PROJECT_DIR$/stack/index.html" />
         <option value="$PROJECT_DIR$/stack/stackDataStructure.js" />
       </list>
     </option>
@@ -210,7 +212,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,12 +228,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
@@ -256,23 +258,23 @@
   <component name="RunManager" selected="Node.js.stackDataStructure.js">
     <configuration name="ECMAScript6AndArrayOfNewFeatures.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="ECMAScript6AndArrayOfNewFeatures.js" working-dir="$PROJECT_DIR$/array" />
     <configuration name="javaScriptArrayMethodReference.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="javaScriptArrayMethodReference.js" working-dir="$PROJECT_DIR$/array" />
-    <configuration name="sortElements.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="sortElements.js" working-dir="$PROJECT_DIR$/array" />
     <configuration name="stackDataStructure.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="stackDataStructure.js" working-dir="$PROJECT_DIR$/stack" />
     <configuration name="useThePropertyAccessor.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="useThePropertyAccessor.js" working-dir="$PROJECT_DIR$/introductionToJavaScript" />
+    <configuration name="useTheStackToSolveTheProblem.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="useTheStackToSolveTheProblem.js" working-dir="$PROJECT_DIR$/stack" />
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.javaScriptArrayMethodReference.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.sortElements.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.useThePropertyAccessor.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.ECMAScript6AndArrayOfNewFeatures.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.stackDataStructure.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.useThePropertyAccessor.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.ECMAScript6AndArrayOfNewFeatures.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.stackDataStructure.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.useTheStackToSolveTheProblem.js" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Node.js.stackDataStructure.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.ECMAScript6AndArrayOfNewFeatures.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.javaScriptArrayMethodReference.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.useThePropertyAccessor.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.sortElements.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.useTheStackToSolveTheProblem.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.ECMAScript6AndArrayOfNewFeatures.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.javaScriptArrayMethodReference.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.useThePropertyAccessor.js" />
       </list>
     </recent_temporary>
   </component>
@@ -297,27 +299,32 @@
       <workItem from="1516604633639" duration="5184000" />
       <workItem from="1516687203691" duration="4891000" />
       <workItem from="1516692896879" duration="597000" />
+      <workItem from="1516699655411" duration="7000" />
+      <workItem from="1516758907986" duration="3141000" />
+      <workItem from="1516762682194" duration="49000" />
+      <workItem from="1516762917899" duration="80000" />
+      <workItem from="1516764996234" duration="426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36304000" />
+    <option name="totallyTimeSpent" value="40007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1855" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24288107" sideWeight="0.49275362" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26298156" sideWeight="0.49275362" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41233766" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16774891" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33441558" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22021456" sideWeight="0.5072464" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33766234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22021456" sideWeight="0.5072464" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -338,24 +345,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/array/ECMAScript6AndArrayOfNewFeatures.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1494">
-          <caret line="83" column="37" lean-forward="false" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array/sortElements.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array/typeArray.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -388,9 +377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -398,9 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -472,9 +455,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -482,9 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,9 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,9 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,15 +639,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/array/two-dimensionalAndMulti-dimensionalArray.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
+        <state relative-caret-position="540">
           <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -735,10 +703,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stack/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack/useTheStackToSolveTheProblem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stack/stackDataStructure.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+        <state relative-caret-position="-227">
+          <caret line="86" column="26" lean-forward="true" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
           <folding />
         </state>
       </provider>

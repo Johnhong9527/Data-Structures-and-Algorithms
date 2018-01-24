@@ -101,10 +101,21 @@ let Stack = (function () {
       let r = s.pop();
       return r
     }
+
     print() {
       let s = items.get(this);
       console.log(s.toString());
     };
+
+    CON() {
+      console.log('123')
+    }
   }
-});
+
+  return Stack;
+})();
+let stack = new Stack();
+stack.push(5);
+stack.push(8);
+stack.print();
 
