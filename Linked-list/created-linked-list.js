@@ -99,6 +99,13 @@ function LinkedList() {
   };
   // 由于列表项使用了 Node 类,就需要重写继承自JavaScript对象默认的toString 方法,让其只输出元素的值。
   this.toString = function () {
+    let current = head,
+      string = '';
+    while (current){
+      string += current.element + (current.next ? ',':'');
+      current = current.next
+    }
+    return `[${string}]`;
   };
   this.print = function () {
   }
@@ -110,3 +117,4 @@ list.append('5474');
 list.append('7474');
 list.append('2414');
 list.insert(3, '8974'); // true
+console.log(list.toString());
