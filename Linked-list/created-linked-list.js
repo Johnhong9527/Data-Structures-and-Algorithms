@@ -21,10 +21,33 @@ function LinkedList() {
     }
     length++
   };
+  // 向列表的特定位置插入一个新的项。
   this.insert = function (poisition, element) {
-  }; // 向列表的特定位置插入一个新的项。
-  this.removeAt = function (element) {
-  }; // 从列表中移除一项。
+  };
+  // 从列表中移除一项。
+  this.removeAt = function (position) {
+    // 判断需要移除项是否存在
+    if (position > -1 && position < length) {
+      let current = head,
+        previous,
+        index = 0;
+      // 移除第一项
+      if (position === 0) {//这里是不移除
+        head = current.next;
+      } else {
+        // 通过while循环语句，筛选数据
+        while (index++ < position) {
+          previous = current;
+          current = current.next;
+        }
+        previous.next = current.next
+      }
+      length--;
+      return current.element
+    } else {
+      return null;
+    }
+  };
   this.remove = function (element) {
   }; // 返回元素在列表中的索引。如果列表中没有该元素则返回 -1 。
   this.indexOf = function (element) {
