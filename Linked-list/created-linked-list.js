@@ -83,31 +83,46 @@ function LinkedList() {
       return null;
     }
   };
-  // 返回元素在列表中的索引。如果列表中没有该元素则返回 -1 。
-  this.remove = function (element) {
-  };
   // 从列表的特定位置移除一项。
+  this.remove = function (element) {
+    let index = this.indexOf(element);
+    return this.removeAt(index);
+  };
+  // 返回元素在列表中的索引。如果列表中没有该元素则返回 -1.
   this.indexOf = function (element) {
+    let current = head,
+      index = 0;
+    while (current) {
+      if (element === current.element) {
+        return index
+      }
+      index++;
+      current = current.next;
+    }
+    return -1
   };
   // 如果链表中不包含任何元素,返回 true ,如果链表长度大于0则返回 false 。
   this.isEmpty = function () {
   };
   // 返回链表包含的元素个数。与数组的 length 属性类似。
   this.size = function () {
+    return length;
   };
   this.getHead = function () {
+    return head;
   };
   // 由于列表项使用了 Node 类,就需要重写继承自JavaScript对象默认的toString 方法,让其只输出元素的值。
   this.toString = function () {
     let current = head,
       string = '';
-    while (current){
-      string += current.element + (current.next ? ',':'');
+    while (current) {
+      string += current.element + (current.next ? ',' : '');
       current = current.next
     }
     return `[${string}]`;
   };
   this.print = function () {
+    return head;
   }
 }
 
@@ -117,4 +132,5 @@ list.append('5474');
 list.append('7474');
 list.append('2414');
 list.insert(3, '8974'); // true
+console.log(list.remove('7474'));
 console.log(list.toString());
