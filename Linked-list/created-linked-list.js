@@ -1,3 +1,4 @@
+// 单向链表
 function LinkedList() {
   let Node = function (element) {
     this.element = element;
@@ -122,7 +123,7 @@ function LinkedList() {
     return `[${string}]`;
   };
   this.print = function () {
-    return head;
+    console.log(head)
   }
 }
 
@@ -132,5 +133,5 @@ list.append('5474');
 list.append('7474');
 list.append('2414');
 list.insert(3, '8974'); // true
-console.log(list.remove('7474'));
-console.log(list.toString());
+list.remove('7474');
+list.print()
