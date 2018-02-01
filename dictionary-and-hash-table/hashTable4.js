@@ -1,6 +1,6 @@
 /*
-解决数据冲突
-  1.分离链接
+  创建更好的散列函数
+
 put(key,value) :向散列表增加一个新的项(也能更新散列表)。
 remove(key) :根据键值从散列表中移除值。
 get(key) :返回根据键值检索到的特定的值。
@@ -161,6 +161,16 @@ function LinkedList() {
 function HashTable() {
   let table = [];
 
+  // 创建更好的散列函数
+  let djb2HashCode = function (key) {
+    let hash = 5381;
+    for (let i = 0; i < key.length; i++) {
+      // charCodeAt()方法,返回0到65535之间的整数
+      hash = hash * 33 + key.charCodeAt(i);
+    }
+    return hash % 1013;
+  };
+
   // 散列函数
   let loseloseHashCode = function (key) {
     let hash = 0;
@@ -177,60 +187,55 @@ function HashTable() {
     this.toString = function () {
       return '[' + this.key + ' - ' + this.value + ']';
     }
-  }
+  };
   // put
   this.put = function (key, value) {
-    let position = loseloseHashCode(key);
+    let position = djb2HashCode(key);
     if (table[position] == undefined) {
-      table[position] = new LinkedList();
+      table[position] = new ValuePair(key, value);
+    } else {
+      let index = ++position;
+      while (table[index] != undefined) {
+        index++;
+      }
+      table[index] = new new ValuePair(key, value);
     }
-    table[position].append(new ValuePair(key, value));
   };
   this.get = function (key) {
-    let position = loseloseHashCode(key);
+    let position = djb2HashCode(key);
     if (table[position] !== undefined) {
-      // 遍历链表来寻找键/值
-      let current = table[position].getHead();
-      while (current.next) {
-        console.log(current.element.key === key);
-        if (current.element.key === key) {
-          console.log(current.element.value);
-          return current.element.value
+      if (table[position].key === key) {
+        return table[position].value;
+      } else {
+        var index = ++position;
+        while (table[index] === undefined || table[index].key !== key) {
+          index++
         }
-        current = current.next;
-      }
-
-      // 检查元素在链表第一个或最后一个节点的情况
-      if (current.element.key === key) {
-        return current.element.value
+        if (table[index].key === key) {
+          return table[index].value
+        }
       }
     }
     return undefined;
   };
   this.remove = function (key) {
-    let position = loseloseHashCode(key);
+    let position = djb2HashCode(key);
     if (table[position] !== undefined) {
-      let current = table[position].getHead();
-      while (current.next) {
-        if (current.element.key === key) {
-          table[position].remove(current.element);
-          if (table[position].isEmpty()) {
-            table[position] = undefined
-          }
+      if (table[position].key === key) {
+        table[position] = undefined;
+        return true;
+      } else {
+        let index = ++position;
+        while (table[index] === undefined || table[index].key !== key) {
+          index++
+        }
+        if (table[index].key === key) {
+          table[index] = undefined;
           return true;
         }
-        current = current.next
-      }
-      // 检查是否为第一个或最后一个元素
-      if (current.element.key === key) {
-        table[position].remove(current.element);
-        if (table[position].isEmpty()) {
-          table[position] = undefined
-        }
-        return true
       }
     }
-    return false
+    return false;
   };
   this.print = function () {
     for (let i = 0; i < table.length; i++) {
@@ -242,6 +247,7 @@ function HashTable() {
   /*解决冲突*/
   // 分离链接
 }
+
 
 let hash = new HashTable();
 hash.put('Gandalf', 'gandalf@email.com');
@@ -267,8 +273,31 @@ hash.print();
  19: [Gandalf - gandalf@email.com]
  29: [John - johnsnow@email.com]
  32: [Mindy - mindy@email.com], [Paul - paul@email.com]
- */
+*/
 console.log('--- 华丽的分割线 ---');
 console.log(hash.get('John')); // johnsnow@email.com
 console.log('--- 华丽的分割线 ---');
 console.log(hash.remove('John'));  // true
+
+
+
+/*
+这里解释一下:5381!
+
+  1.5381只是一个数字，在测试中，导致更少的碰撞和更好的雪崩。几乎每个哈希算法都会找到“魔术常量”。
+
+  2.我发现这个数字的一​​个非常有趣的属性可能是一个原因。
+    5381是第709个素数。
+    709是第127个素数。
+    127是第31个素数。
+    31是第11个素数。
+    11是第5个素数。
+    5是第三个素数。
+    3是第二个素数。
+    2是第一个素数。
+
+    5381是第一次发生这种情况的次数是8次。5381的素数可能会超过signed int的限制，所以这是一个好的一点，可以停止链。
+
+
+
+ */

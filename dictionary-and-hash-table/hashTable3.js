@@ -1,6 +1,6 @@
 /*
 解决数据冲突
-  1.分离链接
+  2. 线性探查
 put(key,value) :向散列表增加一个新的项(也能更新散列表)。
 remove(key) :根据键值从散列表中移除值。
 get(key) :返回根据键值检索到的特定的值。
@@ -177,60 +177,56 @@ function HashTable() {
     this.toString = function () {
       return '[' + this.key + ' - ' + this.value + ']';
     }
-  }
+  };
   // put
   this.put = function (key, value) {
     let position = loseloseHashCode(key);
     if (table[position] == undefined) {
-      table[position] = new LinkedList();
+      table[position] = new ValuePair(key, value);
+    } else {
+      let index = ++position;
+      while (table[index] != undefined) {
+        index++;
+      }
+      table[index] = new ValuePair(key, value);
     }
-    table[position].append(new ValuePair(key, value));
   };
-  this.get = function (key) {
-    let position = loseloseHashCode(key);
-    if (table[position] !== undefined) {
-      // 遍历链表来寻找键/值
-      let current = table[position].getHead();
-      while (current.next) {
-        console.log(current.element.key === key);
-        if (current.element.key === key) {
-          console.log(current.element.value);
-          return current.element.value
+  this.get = function(key) {
+    var position = loseloseHashCode(key);
+    if (table[position] !== undefined){ //{8}
+      if (table[position].key === key) { //{9}
+        return table[position].value; //{10}
+      } else {
+        var index = ++position;
+        while (table[index] === undefined
+        || table[index].key !== key){ //{11}
+          index++;
         }
-        current = current.next;
-      }
-
-      // 检查元素在链表第一个或最后一个节点的情况
-      if (current.element.key === key) {
-        return current.element.value
+        if (table[index].key === key) { //{12}
+          return table[index].value; //{13}
+        }
       }
     }
-    return undefined;
+    return undefined; //{14}
   };
   this.remove = function (key) {
     let position = loseloseHashCode(key);
     if (table[position] !== undefined) {
-      let current = table[position].getHead();
-      while (current.next) {
-        if (current.element.key === key) {
-          table[position].remove(current.element);
-          if (table[position].isEmpty()) {
-            table[position] = undefined
-          }
+      if(table[position].key === key){
+        table[position] = undefined;
+        return true;
+      } else {
+        let index = ++position;
+        while (table[index] === undefined || table[index].key !== key){
+          index++
+        }
+        if(table[index].key === key){
+          table[index] = undefined;
           return true;
         }
-        current = current.next
-      }
-      // 检查是否为第一个或最后一个元素
-      if (current.element.key === key) {
-        table[position].remove(current.element);
-        if (table[position].isEmpty()) {
-          table[position] = undefined
-        }
-        return true
       }
     }
-    return false
+    return false;
   };
   this.print = function () {
     for (let i = 0; i < table.length; i++) {
@@ -242,6 +238,7 @@ function HashTable() {
   /*解决冲突*/
   // 分离链接
 }
+
 
 let hash = new HashTable();
 hash.put('Gandalf', 'gandalf@email.com');
@@ -267,7 +264,7 @@ hash.print();
  19: [Gandalf - gandalf@email.com]
  29: [John - johnsnow@email.com]
  32: [Mindy - mindy@email.com], [Paul - paul@email.com]
- */
+*/
 console.log('--- 华丽的分割线 ---');
 console.log(hash.get('John')); // johnsnow@email.com
 console.log('--- 华丽的分割线 ---');
