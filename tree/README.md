@@ -1,12 +1,10 @@
 #### 树
 ###### 特性
-
+tree的节点特性:父节点大于`子节点(左)`,小于`子节点(右)`;<br/>
 
 > 右单旋转
 > 说明:
 <img src="http://oigzh9iic.bkt.clouddn.com/%E5%90%91%E5%B7%A6%E5%8D%95%E6%97%8B%E8%BD%AC.png">
-
-tree的节点特性:父节点大于`子节点(左)`,小于`子节点(右)`;<br/>
 
 简要:<br/>
 [node]()为`50`<br>
@@ -31,5 +29,22 @@ return tmp;
 
 
 > 左向右双旋转
+> 说明:
 
 <img src="http://oigzh9iic.bkt.clouddn.com/%E5%B7%A6%E5%90%91%E5%8F%B3%E5%8F%8C%E6%97%8B%E8%BD%AC.jpg">
+
+简要:<br/>
+[node]()为`50`<br>
+[node.left]()为`30`<br>
+先将[node.left](),向左做单旋转;<br>
+过程:`40`的left等于`30`,`30`的right等于35;<br>
+接着`50`的left等于旋转好的[node.left]().<br>
+将这个时候的[node]()做向右单旋转.<br>
+过程:<br>
+  `40`的right等于`50`,`50`的left等于null
+
+
+翻译:<br/>
+当我们看到这样子的数据结构时,要做的就是按照步骤,一步步处理[tree]()的结构.
+第一步:将`50`视为[node]();[node]()的left结构目前处于失衡状态,先做左单旋转(原理:参考上文);<br>
+第二步:处理完[node]()的left后,这个时候的tree结构,符合右单旋转条件,再将[node]()向右旋转.完成tree数据平衡;
