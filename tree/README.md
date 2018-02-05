@@ -1,8 +1,10 @@
 #### 树
 ###### 特性
-<img src="http://oigzh9iic.bkt.clouddn.com/%E5%90%91%E5%B7%A6%E5%8D%95%E6%97%8B%E8%BD%AC.png">
 
+
+> 右单旋转
 > 说明:
+<img src="http://oigzh9iic.bkt.clouddn.com/%E5%90%91%E5%B7%A6%E5%8D%95%E6%97%8B%E8%BD%AC.png">
 
 tree的节点特性:父节点大于`子节点(左)`,小于`子节点(右)`;<br/>
 
@@ -26,3 +28,8 @@ node.right = tmp.left;
 tmp.left = node;
 return tmp;
 ```
+
+
+> 左向右双旋转
+
+<img src="http://oigzh9iic.bkt.clouddn.com/%E5%B7%A6%E5%90%91%E5%8F%B3%E5%8F%8C%E6%97%8B%E8%BD%AC.jpg">
