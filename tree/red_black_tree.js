@@ -4,6 +4,8 @@
   3.所有叶子都是黑色（叶子是NIL节点）。
   4.每个红色节点必须有两个黑色的子节点。（从每个叶子到根的所有路径上不能有两个连续的红色节点。）
   5.从任一节点到其每个叶子的所有简单路径都包含相同数目的黑色节点。
+
+  理解:红黑树的平衡效率,理解下来,其实是根据 color 这个属性来做判断的.它不会去查寻根与分支之间的平衡值是多少,只会根据上下左右数据的color的值是否符合平衡条件,如果符合的话,则调用函数进行平衡,而AVL平衡树是因为要遍历整个数据结构,所以在效率方面就会很慢
 */
 function RedBlackTree() {
 
@@ -12,6 +14,7 @@ function RedBlackTree() {
     BLACK: 1
   };
 
+  // 建立数据模型
   let Node = function (key, color) {
     this.key = key;
     this.left = null;
@@ -28,8 +31,10 @@ function RedBlackTree() {
     };
   };
 
+  // 数据源
   let root = null;
 
+  // 获取root
   this.getRoot = function () {
     return root;
   };
@@ -153,7 +158,11 @@ redBlackTre.insert(9);
 redBlackTre.insert(8);
 redBlackTre.insert(10);
 redBlackTre.insert(13);
-redBlackTre.insert(12);
+redBlackTre.insert(25);
+redBlackTre.insert(24);
+redBlackTre.insert(33);
+redBlackTre.insert(73);
+redBlackTre.insert(52);
 redBlackTre.insert(14);
 redBlackTre.insert(20);
 redBlackTre.insert(18);
