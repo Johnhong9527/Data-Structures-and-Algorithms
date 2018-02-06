@@ -114,26 +114,31 @@ function Graph() {
   let initialzeColor = function () {
     let color = [];
     for (let i = 0; i < vertices.length; i++) {
-      color[vertices[i]] = 'white'
+      color[vertices[i]] = 'white' // 所有顶点的颜色是白色
     }
     return color
   };
   this.bfs = function (v, callback) {
-    let color = initialzeColor(),
-      queue = new Queue();
-    queue.enqueue(v);
-    while (!queue.isEmpty()) {
-      let u = queue.dequeue(),
-        neighbors = adjList.get(u);
-      color[u] = 'grey';
+    let color = initialzeColor, // 初始化数组
+      queue = new Queue(), // 存储待访问和待搜索的顶点
+      d = [],
+      pred = [];
+    queue.enqueue(v); // 存入起始顶点
+
+
+
+    while (!queue.isEmpty()) { // 队列非空
+      let u = queue.dequeue(), // 从队列中移除一个顶点
+        neighbors = adjList.get(u); // 并取得一个包含其所有邻点的邻接表
+      color[u] = 'grey'; // 该顶点将被标注为 grey,表示我们发现了它
       for (let i = 0; i < neighbors.length; i++) {
-        let w = neighbors[i];
-        if (color(w) === 'white') {
-          color[w] = 'grey';
-          queue.enqueue(w);
+        let w = neighbors[i]; // 取得 u 相邻的所有顶点
+        if (color(w) === 'white') { // 如果该顶点未被访问过
+          color[w] = 'grey'; // 将其颜色标注 grey
+          queue.enqueue(w); // 并将这个顶点加入队列
         }
       }
-      color[u] = 'black';
+      color[u] = 'black'; // 完成探索后,颜色设置为 black
       if (callback) {
         callback(u);
       }
@@ -160,8 +165,12 @@ graph.addEdge('D', 'H');
 graph.addEdge('B', 'E');
 graph.addEdge('B', 'F');
 graph.addEdge('E', 'I');
-console.log(graph.toString());
-function printNode(value){ //{16}
+
+// console.log(graph.toString());
+
+function printNode(value) { //{16}
   console.log('Visited vertex: ' + value); //{17}
 }
-graph.bfs(myVertices[0], printNode); //{18}
+
+graph.bfs(myVertices[5], printNode); //{18}
+
