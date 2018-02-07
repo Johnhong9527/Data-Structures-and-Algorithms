@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f74779da-6bc4-4b10-8f7a-f1d72f49d593" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graph/search/DFS/graphTraversal2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graph/search/DFS/广度优先算法.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graph/search/对图的解释.txt" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Graph/graphTraversal.js" afterPath="$PROJECT_DIR$/Graph/search/DFS/graphTraversal.js" />
-      <change beforePath="$PROJECT_DIR$/Graph/index.html" afterPath="$PROJECT_DIR$/Graph/index.html" />
+      <change beforePath="$PROJECT_DIR$/Graph/search/DFS/graphTraversal2.js" afterPath="$PROJECT_DIR$/Graph/search/DFS/graphTraversal2.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,25 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="graphTraversal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/search/DFS/graphTraversal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="168" column="22" lean-forward="false" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="n#!!block;n#Dictionary#0" expanded="false" />
-                <element signature="n#!!block;n#Queue#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="graphTraversal2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Graph/search/DFS/graphTraversal2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="127" column="8" lean-forward="false" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+            <state relative-caret-position="435">
+              <caret line="230" column="24" lean-forward="false" selection-start-line="230" selection-start-column="23" selection-end-line="230" selection-end-column="24" />
               <folding>
                 <element signature="n#!!block;n#Dictionary#0" expanded="false" />
                 <element signature="e#174#203#0" expanded="false" />
@@ -55,32 +36,7 @@
                 <element signature="e#789#824#0" expanded="false" />
                 <element signature="e#871#894#0" expanded="false" />
                 <element signature="e#948#1088#0" expanded="false" />
-                <element signature="e#996#1066#0" expanded="false" />
-                <element signature="e#1021#1060#0" expanded="false" />
                 <element signature="n#!!block;n#Queue#0" expanded="false" />
-                <element signature="e#1131#1139#0" expanded="false" />
-                <element signature="e#1189#1219#0" expanded="false" />
-                <element signature="e#1263#1294#0" expanded="false" />
-                <element signature="e#1336#1362#0" expanded="false" />
-                <element signature="e#1407#1442#0" expanded="false" />
-                <element signature="e#1470#1500#0" expanded="false" />
-                <element signature="e#1541#1581#0" expanded="false" />
-                <element signature="e#1740#1864#0" expanded="false" />
-                <element signature="e#1768#1798#0" expanded="false" />
-                <element signature="e#1827#1860#0" expanded="false" />
-                <element signature="e#1913#1974#0" expanded="false" />
-                <element signature="e#2017#2295#0" expanded="false" />
-                <element signature="e#2081#2277#0" expanded="false" />
-                <element signature="e#2213#2255#0" expanded="false" />
-                <element signature="e#2344#2489#0" expanded="false" />
-                <element signature="e#2412#2468#0" expanded="false" />
-                <element signature="e#2717#3233#0" expanded="false" />
-                <element signature="e#2928#3129#0" expanded="false" />
-                <element signature="e#3010#3121#0" expanded="false" />
-                <element signature="e#3197#3227#0" expanded="false" />
-                <element signature="e#3288#3314#0" expanded="false" />
-                <element signature="e#3458#3501#0" expanded="false" />
-                <element signature="n#!!block;n#printNode#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -89,52 +45,9 @@
       <file leaf-file-name="广度优先算法.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graph/search/DFS/广度优先算法.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="56">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.text" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/README.text">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="对图的解释.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/search/对图的解释.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createGraph.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/createGraph.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="85" column="5" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
-              <folding>
-                <element signature="n#!!block;n#Dictionary#0" expanded="false" />
-                <element signature="n#!!block;n#Graph#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -154,7 +67,6 @@
       <find>，</find>
       <find>console</find>
       <find>tail</find>
-      <find>var</find>
       <find>hashTable2.js:238</find>
       <find>charCodeAt</find>
       <find>intermediate</find>
@@ -163,6 +75,8 @@
       <find>flipColor</find>
       <find>addVertex</find>
       <find>-&gt;</find>
+      <find>initializeColor</find>
+      <find>var</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -297,6 +211,28 @@
               <item name="search" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="DFS" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapter03" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="chapter09" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="queue" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -334,26 +270,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.graphTraversal.js">
+  <component name="RunManager" selected="Node.js.graphTraversal2.js">
     <configuration name="02-UsingBinarySearchTree.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="02-UsingBinarySearchTree.js" working-dir="$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter08" />
-    <configuration name="binaryTreeAdBinarySearchTree.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="binaryTreeAdBinarySearchTree.js" working-dir="$PROJECT_DIR$/tree" />
+    <configuration name="02-UsingGraphs.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="02-UsingGraphs.js" working-dir="$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09" />
+    <configuration name="graphTraversal2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="graphTraversal2.js" working-dir="$PROJECT_DIR$/Graph/search/DFS" />
     <configuration name="graphTraversal.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/Graph/search/DFS/graphTraversal.js" working-dir="$PROJECT_DIR$/Graph" />
-    <configuration name="recursive.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="recursive.js" working-dir="$PROJECT_DIR$/algorithmMode" />
     <configuration name="red_black_tree.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="red_black_tree.js" working-dir="$PROJECT_DIR$/tree" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.binaryTreeAdBinarySearchTree.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.recursive.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.02-UsingBinarySearchTree.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.red_black_tree.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.graphTraversal.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.02-UsingBinarySearchTree.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.red_black_tree.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.graphTraversal.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.graphTraversal2.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.02-UsingGraphs.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.graphTraversal.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.red_black_tree.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.02-UsingBinarySearchTree.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.binaryTreeAdBinarySearchTree.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.recursive.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.graphTraversal2.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.02-UsingGraphs.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.graphTraversal.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.red_black_tree.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.02-UsingBinarySearchTree.js" />
       </list>
     </recent_temporary>
   </component>
@@ -400,12 +336,12 @@
       <workItem from="1517827572964" duration="7000" />
       <workItem from="1517810153900" duration="1704000" />
       <workItem from="1517812944584" duration="10374000" />
-      <workItem from="1517899650373" duration="6976000" />
+      <workItem from="1517899650373" duration="16570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150644000" />
+    <option name="totallyTimeSpent" value="160238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,11 +358,11 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28522727" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28084868" sideWeight="0.5087957" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34545454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26174113" sideWeight="0.49120432" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.49120432" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -449,19 +385,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28522727" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5386364" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28084868" sideWeight="0.5087957" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34545454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25601375" sideWeight="0.49120432" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26174113" sideWeight="0.49120432" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22021456" sideWeight="0.5072464" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22021456" sideWeight="0.5072464" order="0" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,86 +411,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter06/01-Set.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="967">
-          <caret line="141" column="1" lean-forward="true" selection-start-line="141" selection-start-column="1" selection-end-line="141" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter06/02-UsingSets.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter06/02-UsingSets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter06/03-Operations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter06/03-Operations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/set/create_set.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="120" column="28" lean-forward="false" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary-and-hash-table/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="140">
-            <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter07/01-Dictionaries.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary-and-hash-table/hashTable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="51" column="30" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter07/07-HashCollisionLinearProbing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter07/05-HashCollisionSeparateChaining.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter07/06-UsingHashCollisionSeparateChaining.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -833,14 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/search/DFS/广度优先算法.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graph/search/DFS/graphTraversal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -853,10 +701,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09/01-Graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="35" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09/06-UsingMinimumSpanningTree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-404">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09/05-MinimumSpanningTree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1260">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09/04-UsingShortestPathAlgorithms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09/03-ShortestPath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1244">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack/stackDataStructure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="e#1714#2287#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter03/01-Stack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09/02-UsingGraphs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter03/01-Stack3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09/04-UsingShortestPathAlgorithms.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09/02-UsingGraphs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/search/DFS/广度优先算法.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Graph/search/DFS/graphTraversal2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="127" column="8" lean-forward="false" selection-start-line="127" selection-start-column="8" selection-end-line="127" selection-end-column="8" />
+        <state relative-caret-position="435">
+          <caret line="230" column="24" lean-forward="false" selection-start-line="230" selection-start-column="23" selection-end-line="230" selection-end-column="24" />
           <folding>
             <element signature="n#!!block;n#Dictionary#0" expanded="false" />
             <element signature="e#174#203#0" expanded="false" />
@@ -869,32 +815,7 @@
             <element signature="e#789#824#0" expanded="false" />
             <element signature="e#871#894#0" expanded="false" />
             <element signature="e#948#1088#0" expanded="false" />
-            <element signature="e#996#1066#0" expanded="false" />
-            <element signature="e#1021#1060#0" expanded="false" />
             <element signature="n#!!block;n#Queue#0" expanded="false" />
-            <element signature="e#1131#1139#0" expanded="false" />
-            <element signature="e#1189#1219#0" expanded="false" />
-            <element signature="e#1263#1294#0" expanded="false" />
-            <element signature="e#1336#1362#0" expanded="false" />
-            <element signature="e#1407#1442#0" expanded="false" />
-            <element signature="e#1470#1500#0" expanded="false" />
-            <element signature="e#1541#1581#0" expanded="false" />
-            <element signature="e#1740#1864#0" expanded="false" />
-            <element signature="e#1768#1798#0" expanded="false" />
-            <element signature="e#1827#1860#0" expanded="false" />
-            <element signature="e#1913#1974#0" expanded="false" />
-            <element signature="e#2017#2295#0" expanded="false" />
-            <element signature="e#2081#2277#0" expanded="false" />
-            <element signature="e#2213#2255#0" expanded="false" />
-            <element signature="e#2344#2489#0" expanded="false" />
-            <element signature="e#2412#2468#0" expanded="false" />
-            <element signature="e#2717#3233#0" expanded="false" />
-            <element signature="e#2928#3129#0" expanded="false" />
-            <element signature="e#3010#3121#0" expanded="false" />
-            <element signature="e#3197#3227#0" expanded="false" />
-            <element signature="e#3288#3314#0" expanded="false" />
-            <element signature="e#3458#3501#0" expanded="false" />
-            <element signature="n#!!block;n#printNode#0" expanded="false" />
           </folding>
         </state>
       </provider>

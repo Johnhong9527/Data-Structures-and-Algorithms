@@ -43,8 +43,8 @@ function Dictionary() {
   }
   // 将字典所包含的所有数值以数组形式返回。
   this.values = function () {
-    var values = [];
-    for (var k in items) {
+    let values = [];
+    for (let k in items) {
       if (this.has(k)) {
         values.push(items[k])
       }
@@ -81,6 +81,41 @@ function Queue() {
   };
 }
 
+let Stack = (function () {
+  const items = new WeakMap();  //{1}声明一个 WeakMap 类型的变量 items
+  class Stack {
+    constructor() {
+      items.set(this, []); //{2} 在 constructor 中,以 this ( Stack 类自己的引用)为键,把代表栈的数组存入 items 。
+    }
+
+    push(element) {
+      let s = items.get(this); //{3} 从 WeakMap 中取出值,即以 this 为键(行 {2} 设置的)从 items 中取值。
+      s.push(element)
+    }
+
+    pop() {
+      let s = items.get(this);
+      let r = s.pop();
+      return r
+    }
+
+    print() {
+      let s = items.get(this);
+      console.log(s.toString());
+    };
+
+    CON() {
+      console.log('123')
+    };
+
+    isEmpty() {
+      return items.get(this).length == 0;
+    }
+  }
+
+  return Stack;
+})();
+
 function Graph() {
   let vertices = []; // 存储图中所有顶点的名字
   let adjList = new Dictionary(); // 用一个字典来存储邻接表
@@ -111,37 +146,44 @@ function Graph() {
     return s;
   };
   // 广度优先搜索
-  let initialzeColor = function () {
-    let color = [];
+  let initializeColor = function () {
+    let color = {};
     for (let i = 0; i < vertices.length; i++) {
-      color[vertices[i]] = 'white' // 所有顶点的颜色是白色
+      color[vertices[i]] = 'white';
     }
-    return color
+    return color;
   };
   this.bfs = function (v, callback) {
-    let color = initialzeColor, // 初始化数组
+    let color = initializeColor(), // 初始化数组
       queue = new Queue(), // 存储待访问和待搜索的顶点
-      d = [],
-      pred = [];
+      d = [], // 表示距离
+      pred = []; // pred 数组来表示前溯点
     queue.enqueue(v); // 存入起始顶点
 
-
+    for (let i = 0; i < vertices.length; i++) {
+      d[vertices[i]] = 0; // 用 0 来初始化数组 d
+      pred[vertices[i]] = null; // 用 null 来初始化数组 pred
+    }
 
     while (!queue.isEmpty()) { // 队列非空
       let u = queue.dequeue(), // 从队列中移除一个顶点
         neighbors = adjList.get(u); // 并取得一个包含其所有邻点的邻接表
       color[u] = 'grey'; // 该顶点将被标注为 grey,表示我们发现了它
-      for (let i = 0; i < neighbors.length; i++) {
+      for (i = 0; i < neighbors.length; i++) {
         let w = neighbors[i]; // 取得 u 相邻的所有顶点
-        if (color(w) === 'white') { // 如果该顶点未被访问过
+        if (color[w] === 'white') { // 如果该顶点未被访问过
           color[w] = 'grey'; // 将其颜色标注 grey
           queue.enqueue(w); // 并将这个顶点加入队列
+          d[w] = d[u] + 1; // 给 d[u] 加1来设置 v 和 w 之间的距离
+          pred[w] = u; // 设置 w 的前溯点值为 u
+          queue.enqueue(w);
         }
       }
       color[u] = 'black'; // 完成探索后,颜色设置为 black
-      if (callback) {
-        callback(u);
-      }
+    }
+    return {
+      distances: d,
+      predecessors: pred
     }
   };
   // 获取vertices
@@ -168,9 +210,29 @@ graph.addEdge('E', 'I');
 
 // console.log(graph.toString());
 
-function printNode(value) { //{16}
-  console.log('Visited vertex: ' + value); //{17}
+// function printNode(value) { //{16}
+//   console.log('Visited vertex: ' + value); //{17}
+// }
+
+// graph.bfs(myVertices[5], printNode); //{18}
+
+let shortestPathA = graph.bfs(myVertices[0]);
+console.log(shortestPathA);
+
+
+/*********************************/
+let formVertex = myVertices[0]; // 顶点 A 作为源顶点
+for(let i = 0; i < myVertices.length;i++){  // 计算顶点A到其它顶点的路径
+  let toVertex = myVertices[i], // 我们从顶点数组得到 toVertex
+    path = new Stack(); // 然后会创建一个栈(path)来存储路径值
+  // 追溯 toVertex 到 fromVertex 的路径;变量 v 被赋值为其前溯点的值,反向追溯这条路径;
+  for(let v = toVertex;v!== formVertex;v = shortestPathA.predecessors[v]){
+    path.push(v); // 将变量 v 添加到栈中
+  }
+  path.push(formVertex);
+  let s = path.pop(); // 我们创建了一个 s 字符串,并将源顶点赋值给它
+  while (!path.isEmpty()){
+    s += ' - ' + path.pop();  // 从栈中移出一个项并将其拼接到字符串 s 的后面
+  }
+  console.log(s);
 }
-
-graph.bfs(myVertices[5], printNode); //{18}
-
