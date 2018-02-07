@@ -32,7 +32,7 @@ console.log('********* dfs ***********');
 
 graph.dfs();
 
-console.log('********* sorthest path - BFS ***********');
+console.log('********* sorthest path - DFS ***********');
 var shortestPathA = graph.BFS(myVertices[0]);
 console.log(shortestPathA.distances);
 console.log(shortestPathA.predecessors);
@@ -54,9 +54,9 @@ for (i=1; i<myVertices.length; i++){
     console.log(s);
 }
 
-console.log('********* topological sort - DFS ***********');
+console.log('********* topological sort - BFS ***********');
 
-//var result = graph.DFS();
+//var result = graph.BFS();
 //console.log(result.discovery);
 //console.log(result.finished);
 //console.log(result.predecessors);

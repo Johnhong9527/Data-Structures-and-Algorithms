@@ -11,7 +11,7 @@ function Graph() {
 
     this.addEdge = function(v, w){
         adjList.get(v).push(w);
-        //adjList.get(w).push(v); //commented to run the improved DFS with topological sorting
+        //adjList.get(w).push(v); //commented to run the improved BFS with topological sorting
     };
 
     this.toString = function(){

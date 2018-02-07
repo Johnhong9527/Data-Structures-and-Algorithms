@@ -38,8 +38,8 @@ function Dictionary() {
   }
   // 将字典所包含的所有数值以数组形式返回。
   this.values = function () {
-    var values = [];
-    for (var k in items) {
+    let values = [];
+    for (let k in items) {
       if (this.has(k)) {
         values.push(items[k])
       }
@@ -89,29 +89,46 @@ function Graph() {
     }
     return color;
   };
-  this.dfs = function (callback) {
-    let color = initializeColor(); // 创建颜色数组,用值 white 为图中的每个顶点对其做初始化
+  let time = 0;
+  this.DFS = function () {
+    let color = initializeColor(),
+      d = [],
+      f = [],
+      p = [];
+    time = 0;
+    for (let i = 0; i < vertices.length; i++) {
+      f[vertices[i]] = 0;
+      d[vertices[i]] = 0;
+      p[vertices[i]] = null;
+    }
     for (let i = 0; i < vertices.length; i++) {
       if (color[vertices[i]] === 'white') {
-        // 调用私有的递归函数 dfsVisit ,传递的参数为顶点、颜色数组以及回调函数
-        dfsVisit(vertices[i], color, callback);
+        DFSVisit(vertices[i], color, d, f, p);
       }
     }
-  };
-  let dfsVisit = function (u, color, callback) {
-    color = 'grey'; // 当访问 u 顶点时,我们标注其为被发现的
-    if (callback) {
-      callback(u);
+    return {
+      discovery: d,
+      finished: f,
+      predecessors: p
     }
+  }
+
+  let DFSVisit = function (u, color, d, f, p) {
+    console.log('discovered ' + u);
+    color[u] = 'grey';
+    d[u] = ++time; //{5}
     let neighbors = adjList.get(u);
     for (let i = 0; i < neighbors.length; i++) {
       let w = neighbors[i];
       if (color[w] === 'white') {
-        dfsVisit(w, color, callback)
+        p[w] = u; // {6}
+        DFSVisit(w, color, d, f, p);
       }
     }
     color[u] = 'black';
-  }
+    f[u] = ++time; //{7}
+    console.log('explored ' + u);
+  };
 }
 
 // 测试
@@ -130,7 +147,8 @@ graph.addEdge('D', 'H');
 graph.addEdge('B', 'E');
 graph.addEdge('B', 'F');
 graph.addEdge('E', 'I');
-console.log(graph.toString());
+
+// console.log(graph.toString());
 
 function printNode(value) { //{16}
   console.log('Visited vertex: ' + value); //{17}
