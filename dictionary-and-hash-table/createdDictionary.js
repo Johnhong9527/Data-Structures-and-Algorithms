@@ -14,7 +14,7 @@ function Dictionary() {
   };
   // 如果某个键值存在于这个字典中,则返回 true ,反之则返回 false 。
   this.has = function (key) {
-    return key in items;
+    return key in items;  // in 操作符用来判断属性是否存在与对象中。
   };
   // 通过键值查找特定的数值并返回。
   this.get = function (key) {

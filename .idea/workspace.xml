@@ -2,19 +2,13 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/array/javaScriptArrayMethodReference.js" line="64" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/Graph/search/DFS/DFS2.js" line="146" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f74779da-6bc4-4b10-8f7a-f1d72f49d593" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graph/search/DFS/DFS2.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Graph/index.html" afterPath="$PROJECT_DIR$/Graph/index.html" />
-      <change beforePath="$PROJECT_DIR$/Graph/search/BFS/BFS.js" afterPath="$PROJECT_DIR$/Graph/search/DFS/dfs.js" />
-      <change beforePath="$PROJECT_DIR$/Graph/search/BFS/深度优先搜索.txt" afterPath="$PROJECT_DIR$/Graph/search/DFS/深度优先搜索.txt" />
-      <change beforePath="$PROJECT_DIR$/Graph/search/DFS/graphTraversal.js" afterPath="$PROJECT_DIR$/Graph/search/BFS/graphTraversal.js" />
-      <change beforePath="$PROJECT_DIR$/Graph/search/DFS/graphTraversal2.js" afterPath="$PROJECT_DIR$/Graph/search/BFS/graphTraversal2.js" />
-      <change beforePath="$PROJECT_DIR$/Graph/search/DFS/广度优先算法.txt" afterPath="$PROJECT_DIR$/Graph/search/BFS/广度优先算法.txt" />
-      <change beforePath="$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09/01-Graph.js" afterPath="$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09/01-Graph.js" />
-      <change beforePath="$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09/02-UsingGraphs.js" afterPath="$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09/02-UsingGraphs.js" />
+      <change beforePath="$PROJECT_DIR$/Graph/search/DFS/DFS2.js" afterPath="$PROJECT_DIR$/Graph/search/DFS/DFS2.js" />
+      <change beforePath="$PROJECT_DIR$/dictionary-and-hash-table/createdDictionary.js" afterPath="$PROJECT_DIR$/dictionary-and-hash-table/createdDictionary.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,6 +22,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="graphTraversal2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graph/search/BFS/graphTraversal2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-59">
+              <caret line="218" column="17" lean-forward="false" selection-start-line="218" selection-start-column="4" selection-end-line="218" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!block;n#Dictionary#0" expanded="false" />
+                <element signature="e#174#203#0" expanded="false" />
+                <element signature="e#264#361#0" expanded="false" />
+                <element signature="e#289#340#0" expanded="false" />
+                <element signature="e#435#465#0" expanded="false" />
+                <element signature="e#516#572#0" expanded="false" />
+                <element signature="e#623#629#0" expanded="false" />
+                <element signature="e#693#736#0" expanded="false" />
+                <element signature="e#789#824#0" expanded="false" />
+                <element signature="e#871#894#0" expanded="false" />
+                <element signature="e#948#1088#0" expanded="false" />
+                <element signature="n#!!block;n#Queue#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stack/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="28">
+                <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="42" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stackDataStructure.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stack/stackDataStructure.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="深度优先搜索.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graph/search/DFS/深度优先搜索.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="dfs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graph/search/DFS/dfs.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DFS2.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DFS2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graph/search/DFS/DFS2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="95" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="156" selection-end-column="21" />
+            <state relative-caret-position="547">
+              <caret line="143" column="13" lean-forward="false" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="13" />
               <folding>
                 <element signature="n#!!block;n#Dictionary#0" expanded="false" />
                 <element signature="e#93#122#0" expanded="false" />
@@ -57,29 +107,7 @@
                 <element signature="e#708#743#0" expanded="false" />
                 <element signature="e#790#813#0" expanded="false" />
                 <element signature="e#867#1007#0" expanded="false" />
-                <element signature="e#3078#3121#0" expanded="false" />
-                <element signature="n#!!block;n#printNode#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="深度优先搜索.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/search/DFS/深度优先搜索.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01-Graph.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09/01-Graph.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="88" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -109,8 +137,9 @@
       <find>-&gt;</find>
       <find>initializeColor</find>
       <find>dis</find>
-      <find>printNode</find>
       <find>var</find>
+      <find>printNode</find>
+      <find>predecessors</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -143,7 +172,6 @@
         <option value="$PROJECT_DIR$/set/index.html" />
         <option value="$PROJECT_DIR$/set/create_set.js" />
         <option value="$PROJECT_DIR$/dictionary-and-hash-table/README.md" />
-        <option value="$PROJECT_DIR$/dictionary-and-hash-table/createdDictionary.js" />
         <option value="$PROJECT_DIR$/dictionary-and-hash-table/hashTable.js" />
         <option value="$PROJECT_DIR$/dictionary-and-hash-table/hashTable2.js" />
         <option value="$PROJECT_DIR$/dictionary-and-hash-table/hashTable4.js" />
@@ -174,6 +202,7 @@
         <option value="$PROJECT_DIR$/Graph/search/BFS/深度优先搜索.txt" />
         <option value="$PROJECT_DIR$/Graph/search/DFS/DFS.js" />
         <option value="$PROJECT_DIR$/Graph/search/DFS/深度优先搜索.txt" />
+        <option value="$PROJECT_DIR$/dictionary-and-hash-table/createdDictionary.js" />
         <option value="$PROJECT_DIR$/Graph/search/DFS/DFS2.js" />
       </list>
     </option>
@@ -218,48 +247,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Data-Structures-and-Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures-and-Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="Data-Structures-and-Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures-and-Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data-Structures-and-Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures-and-Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data-Structures-and-Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures-and-Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="DFS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data-Structures-and-Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures-and-Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data-Structures-and-Algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures-and-Algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter09" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="stack" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,17 +276,17 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Graph/search" />
+      <recent name="$PROJECT_DIR$/Graph/DFS" />
+      <recent name="$PROJECT_DIR$/1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\seam\Code\Data-Structures-and-Algorithms\Graph\search\DFS" />
       <recent name="$PROJECT_DIR$/Graph/search/BFS" />
       <recent name="$PROJECT_DIR$/Graph/search/DFS" />
       <recent name="$PROJECT_DIR$/dictionary-and-hash-table" />
       <recent name="$PROJECT_DIR$/stack" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Graph/search" />
-      <recent name="$PROJECT_DIR$/Graph/DFS" />
-      <recent name="$PROJECT_DIR$/1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -296,26 +301,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.BFS.js">
+  <component name="RunManager" selected="Node.js.graphTraversal2.js">
     <configuration name="02-UsingGraphs.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="02-UsingGraphs.js" working-dir="$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter09" />
     <configuration name="BFS.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/Graph/search/DFS/dfs.js" working-dir="$PROJECT_DIR$/Graph/search/DFS" />
+    <configuration name="DFS2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="DFS2.js" working-dir="$PROJECT_DIR$/Graph/search/DFS" />
     <configuration name="graphTraversal2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/Graph/search/BFS/graphTraversal2.js" working-dir="$PROJECT_DIR$/Graph/search/BFS" />
     <configuration name="graphTraversal.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/Graph/search/BFS/graphTraversal.js" working-dir="$PROJECT_DIR$/Graph" />
-    <configuration name="red_black_tree.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="red_black_tree.js" working-dir="$PROJECT_DIR$/tree" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.red_black_tree.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.graphTraversal.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.graphTraversal2.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.02-UsingGraphs.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.BFS.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.graphTraversal.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.graphTraversal2.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.02-UsingGraphs.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.BFS.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.DFS2.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.BFS.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.graphTraversal2.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.02-UsingGraphs.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.graphTraversal.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.red_black_tree.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.graphTraversal2.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.DFS2.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.BFS.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.02-UsingGraphs.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.graphTraversal.js" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +373,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166166000" />
+    <option name="totallyTimeSpent" value="176051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,29 +385,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-9" y="-9" width="1830" height="1083" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2078473" sideWeight="0.49120432" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28084868" sideWeight="0.5087957" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34545454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28178695" sideWeight="0.49120432" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43498275" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28084868" sideWeight="0.5087957" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15189873" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22021456" sideWeight="0.5072464" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43498275" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28084868" sideWeight="0.5087957" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15189873" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2078473" sideWeight="0.49120432" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22021456" sideWeight="0.5072464" order="0" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -438,27 +456,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Linked-list/circular-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linked-list/created-linked-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="110" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary-and-hash-table/hashTable2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="266" column="22" lean-forward="true" selection-start-line="266" selection-start-column="22" selection-end-line="266" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dictionary-and-hash-table/hashTable4.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
@@ -627,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dictionary-and-hash-table/createdDictionary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/queue/createdQueue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -681,11 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="168" column="22" lean-forward="false" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#!!block;n#Dictionary#0" expanded="false" />
-            <element signature="n#!!block;n#Queue#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,13 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1244">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stack/stackDataStructure.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -755,40 +733,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/search/BFS/graphTraversal2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2948">
-          <caret line="212" column="0" lean-forward="false" selection-start-line="212" selection-start-column="0" selection-end-line="214" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!block;n#Dictionary#0" expanded="false" />
-            <element signature="e#174#203#0" expanded="false" />
-            <element signature="e#264#361#0" expanded="false" />
-            <element signature="e#289#340#0" expanded="false" />
-            <element signature="e#435#465#0" expanded="false" />
-            <element signature="e#516#572#0" expanded="false" />
-            <element signature="e#623#629#0" expanded="false" />
-            <element signature="e#693#736#0" expanded="false" />
-            <element signature="e#789#824#0" expanded="false" />
-            <element signature="e#871#894#0" expanded="false" />
-            <element signature="e#948#1088#0" expanded="false" />
-            <element signature="n#!!block;n#Queue#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graph/search/BFS/广度优先算法.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,6 +763,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionary-and-hash-table/hashTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionary-and-hash-table/hashTable2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3416">
+          <caret line="266" column="22" lean-forward="true" selection-start-line="266" selection-start-column="22" selection-end-line="266" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionary-and-hash-table/createdDictionary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/search/DFS/深度优先搜索.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Graph/search/DFS/dfs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -826,18 +815,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/search/DFS/深度优先搜索.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graph/search/DFS/DFS2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="95" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="156" selection-end-column="21" />
+        <state relative-caret-position="547">
+          <caret line="143" column="13" lean-forward="false" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="13" />
           <folding>
             <element signature="n#!!block;n#Dictionary#0" expanded="false" />
             <element signature="e#93#122#0" expanded="false" />
@@ -850,9 +831,47 @@
             <element signature="e#708#743#0" expanded="false" />
             <element signature="e#790#813#0" expanded="false" />
             <element signature="e#867#1007#0" expanded="false" />
-            <element signature="e#3078#3121#0" expanded="false" />
-            <element signature="n#!!block;n#printNode#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/search/BFS/graphTraversal2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="218" column="17" lean-forward="false" selection-start-line="218" selection-start-column="4" selection-end-line="218" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!block;n#Dictionary#0" expanded="false" />
+            <element signature="e#174#203#0" expanded="false" />
+            <element signature="e#264#361#0" expanded="false" />
+            <element signature="e#289#340#0" expanded="false" />
+            <element signature="e#435#465#0" expanded="false" />
+            <element signature="e#516#572#0" expanded="false" />
+            <element signature="e#623#629#0" expanded="false" />
+            <element signature="e#693#736#0" expanded="false" />
+            <element signature="e#789#824#0" expanded="false" />
+            <element signature="e#871#894#0" expanded="false" />
+            <element signature="e#948#1088#0" expanded="false" />
+            <element signature="n#!!block;n#Queue#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="28">
+            <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="42" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stack/stackDataStructure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

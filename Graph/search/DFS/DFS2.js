@@ -89,14 +89,14 @@ function Graph() {
     }
     return color;
   };
-  let time = 0;
+  let time = 0; // 我们需要一个变量来要追踪发现时间和完成探索时间
   this.DFS = function () {
     let color = initializeColor(),
       d = [],
       f = [],
       p = [];
     time = 0;
-    for (let i = 0; i < vertices.length; i++) {
+    for (let i = 0; i < vertices.length; i++) { //我们需要为图的每一个顶点来初始化这些数组
       f[vertices[i]] = 0;
       d[vertices[i]] = 0;
       p[vertices[i]] = null;
@@ -106,52 +106,42 @@ function Graph() {
         DFSVisit(vertices[i], color, d, f, p);
       }
     }
-    return {
+    return { // 在这个方法结尾处返回这些值(行 {4} ),之后我们要用到它们
       discovery: d,
       finished: f,
       predecessors: p
     }
-  }
+  };
 
   let DFSVisit = function (u, color, d, f, p) {
-    console.log('discovered ' + u);
+    // console.log('discovered ' + u);
     color[u] = 'grey';
-    d[u] = ++time; //{5}
+    d[u] = ++time; //{5} 追踪其发现时间
     let neighbors = adjList.get(u);
     for (let i = 0; i < neighbors.length; i++) {
       let w = neighbors[i];
       if (color[w] === 'white') {
-        p[w] = u; // {6}
+        p[w] = u; // {6} 当它是由引自顶点 u 的边而被发现的,我们追踪它的前溯点
         DFSVisit(w, color, d, f, p);
       }
     }
     color[u] = 'black';
-    f[u] = ++time; //{7}
-    console.log('explored ' + u);
+    f[u] = ++time; //{7} 当这个顶点被完全探索后,我们追踪其完成时间
+    // console.log('explored ' + u);
   };
 }
 
 // 测试
-let graph = new Graph();
-let myVertices = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I']; //{7}
-for (let i = 0; i < myVertices.length; i++) { //{8}
+graph = new Graph();
+myVertices = ['A','B','C','D','E','F'];
+for (i=0; i<myVertices.length; i++){
   graph.addVertex(myVertices[i]);
 }
-graph.addEdge('A', 'B'); //{9}
 graph.addEdge('A', 'C');
 graph.addEdge('A', 'D');
-graph.addEdge('C', 'D');
-graph.addEdge('C', 'G');
-graph.addEdge('D', 'G');
-graph.addEdge('D', 'H');
+graph.addEdge('B', 'D');
 graph.addEdge('B', 'E');
-graph.addEdge('B', 'F');
-graph.addEdge('E', 'I');
-
-// console.log(graph.toString());
-
-function printNode(value) { //{16}
-  console.log('Visited vertex: ' + value); //{17}
-}
-
-graph.dfs(printNode);
+graph.addEdge('C', 'F');
+graph.addEdge('F', 'E');
+var result = graph.DFS();
+console.log(result);
