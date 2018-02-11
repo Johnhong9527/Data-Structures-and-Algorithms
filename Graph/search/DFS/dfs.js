@@ -89,12 +89,14 @@ function Graph() {
     }
     return color;
   };
-  this.dfs = function(callback){
+  this.dfs = function (callback) {
+
+
 
     var color = initializeColor(); // 创建颜色数组,用值 white 为图中的每个顶点对其做初始化
 
-    for (var i=0; i<vertices.length; i++){
-      if (color[vertices[i]] === 'white'){
+    for (var i = 0; i < vertices.length; i++) {
+      if (color[vertices[i]] === 'white') {
         // 调用私有的递归函数 dfsVisit ,传递的参数为顶点、颜色数组以及回调函数
         dfsVisit(vertices[i], color, callback);
       }
@@ -133,10 +135,9 @@ graph.addEdge('D', 'H');
 graph.addEdge('B', 'E');
 graph.addEdge('B', 'F');
 graph.addEdge('E', 'I');
-// console.log(graph.toString());
 
+// console.log(graph.toString());
 function printNode(value) { //{16}
   console.log('Visited vertex: ' + value); //{17}
 }
-
 graph.dfs(printNode);

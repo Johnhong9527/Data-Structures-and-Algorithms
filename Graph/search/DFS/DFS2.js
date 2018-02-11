@@ -76,11 +76,11 @@ function Graph() {
       s += '\n'
     }
     return s;
-  }
+  };
   // 获取vertices
   this.getVertices = function () {
     return vertices;
-  }
+  };
   // 深度优先搜索
   let initializeColor = function () {
     let color = {};
@@ -92,9 +92,9 @@ function Graph() {
   let time = 0; // 我们需要一个变量来要追踪发现时间和完成探索时间
   this.DFS = function () {
     let color = initializeColor(),
-      d = [],
-      f = [],
-      p = [];
+      d = [], // 探索点发现时间
+      f = [], //
+      p = []; // 前溯点
     time = 0;
     for (let i = 0; i < vertices.length; i++) { //我们需要为图的每一个顶点来初始化这些数组
       f[vertices[i]] = 0;
@@ -114,27 +114,27 @@ function Graph() {
   };
 
   let DFSVisit = function (u, color, d, f, p) {
-    // console.log('discovered ' + u);
+    console.log('discovered ' + u);
     color[u] = 'grey';
     d[u] = ++time; //{5} 追踪其发现时间
-    let neighbors = adjList.get(u);
+    let neighbors = adjList.get(u); // 这里通过字典的数据结构,以递归的形式,探索顶点
     for (let i = 0; i < neighbors.length; i++) {
-      let w = neighbors[i];
+      let w = neighbors[i]; // w 表示
       if (color[w] === 'white') {
         p[w] = u; // {6} 当它是由引自顶点 u 的边而被发现的,我们追踪它的前溯点
-        DFSVisit(w, color, d, f, p);
+        DFSVisit(w, color, d, f, p); // 递归
       }
     }
     color[u] = 'black';
     f[u] = ++time; //{7} 当这个顶点被完全探索后,我们追踪其完成时间
-    // console.log('explored ' + u);
+    console.log('explored ' + u);
   };
 }
 
 // 测试
 graph = new Graph();
-myVertices = ['A','B','C','D','E','F'];
-for (i=0; i<myVertices.length; i++){
+myVertices = ['A', 'B', 'C', 'D', 'E', 'F'];
+for (i = 0; i < myVertices.length; i++) {
   graph.addVertex(myVertices[i]);
 }
 graph.addEdge('A', 'C');
@@ -144,4 +144,20 @@ graph.addEdge('B', 'E');
 graph.addEdge('C', 'F');
 graph.addEdge('F', 'E');
 var result = graph.DFS();
-console.log(result);
+console.log(result.finished);
+var fTimes = result.finished;
+console.log(fTimes)
+s = '';
+for (var count=0; count<myVertices.length; count++){
+  var max = 0;
+  var maxName = null;
+  for (i=0; i<myVertices.length; i++){
+    if (fTimes[myVertices[i]] > max){
+      max = fTimes[myVertices[i]];
+      maxName = myVertices[i];
+    }
+  }
+  s += ' - ' + maxName;
+  delete fTimes[maxName];
+}
+console.log(s);
