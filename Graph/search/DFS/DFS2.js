@@ -133,8 +133,8 @@ function Graph() {
 
 // 测试
 graph = new Graph();
-myVertices = ['A', 'B', 'C', 'D', 'E', 'F'];
-for (i = 0; i < myVertices.length; i++) {
+myVertices = ['A','B','C','D','E','F'];
+for (i=0; i<myVertices.length; i++){
   graph.addVertex(myVertices[i]);
 }
 graph.addEdge('A', 'C');
@@ -144,20 +144,3 @@ graph.addEdge('B', 'E');
 graph.addEdge('C', 'F');
 graph.addEdge('F', 'E');
 var result = graph.DFS();
-console.log(result.finished);
-var fTimes = result.finished;
-console.log(fTimes)
-s = '';
-for (var count=0; count<myVertices.length; count++){
-  var max = 0;
-  var maxName = null;
-  for (i=0; i<myVertices.length; i++){
-    if (fTimes[myVertices[i]] > max){
-      max = fTimes[myVertices[i]];
-      maxName = myVertices[i];
-    }
-  }
-  s += ' - ' + maxName;
-  delete fTimes[maxName];
-}
-console.log(s);
