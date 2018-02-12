@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f74779da-6bc4-4b10-8f7a-f1d72f49d593" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graph/Dijkstra/dijkstra.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Graph/FloydWarshall/floydWarshall.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Graph/index.html" afterPath="$PROJECT_DIR$/Graph/index.html" />
-      <change beforePath="$PROJECT_DIR$/Graph/search/DFS/DFS2.js" afterPath="$PROJECT_DIR$/Graph/search/DFS/DFS2.js" />
+      <change beforePath="$PROJECT_DIR$/Graph/Dijkstra/dijkstra.js" afterPath="$PROJECT_DIR$/Graph/Dijkstra/dijkstra.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +22,8 @@
       <file leaf-file-name="dijkstra.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Graph/Dijkstra/dijkstra.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="224">
+              <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -346,12 +342,12 @@
       <workItem from="1518316957903" duration="9524000" />
       <workItem from="1518331299510" duration="576000" />
       <workItem from="1518332765763" duration="4047000" />
-      <workItem from="1518399503051" duration="3024000" />
+      <workItem from="1518399503051" duration="12753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208792000" />
+    <option name="totallyTimeSpent" value="218521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -803,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graph/Dijkstra/dijkstra.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="224">
+          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
           <folding />
         </state>
       </provider>

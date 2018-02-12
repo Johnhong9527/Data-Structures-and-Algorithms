@@ -1,34 +1,35 @@
 // 迪杰斯特拉算法
+let arr = ['A', 'B', 'C', 'D', 'E', 'F'];
+
 function ShortestPath(graph) {
-
   this.graph = graph;
-
   let INF = Number.MAX_SAFE_INTEGER;
   let minDistance = function (dist, visited) {
-
     let min = INF,
       minIndex = -1;
-    //
+    /*
+      for循环语句,主要目的是从尚未处理的顶点中选出距离最近的顶点,
+                          why?
+      这里是查询最近节点的.之前,我在疑惑,那个 邻接矩阵 中不是存在很多  0 吗?为什么我在这里居然一个都不用处理,结果是我脑子不够用了.那些 0 ,在另一个for循环(将各节点的最短距离存储dist)中,就已经被过滤掉了.
+       好了,开始下一个问题,也就是核心问题,这段程序是如何从尚未处理的顶点中选出距离最近的顶点.
+       我是这么想的,首先,不用去考虑乱七八糟的 0;每一次循环结束(一次循环 dist.length - 1 次),我都将获取到
+
+    */
     for (let v = 0; v < dist.length; v++) {
-      /*
-      如果顶点未被探索.并且 源顶点距离其他顶点的最短距离 <=  min
-      min: dist[v-1] 的值,
-      在下面这个判断中,我们要理解的是,这个dist[v] 的值距离
-      举例:
-        dist[c] <= dist[b]
-        A-->c <= A-->b
-      如果条件符合,就返回这个节点
-       */
+      console.log('*************');
+      console.log('未处理的 min: ' + min);
       if (visited[v] == false && dist[v] <= min) {
         min = dist[v]; // 为下一个循环创造判断依据
+        console.log('已处理的 min: ' + min);
+        console.log(`A - ${arr[v]} 的距离:${dist[v]}`);
         minIndex = v; // 从尚未处理的顶点中选出距离最近的顶点
       }
     }
+    console.log('minIndex: ' + minIndex);
+    console.log('@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@');
     return minIndex;
   };
-
   this.dijkstra = function (src) {
-
     let dist = [],   // 源顶点距离其他顶点的最短距离
       visited = [], // 存储各顶点是否被查询的依据
       length = this.graph.length;
@@ -42,8 +43,8 @@ function ShortestPath(graph) {
 
     for (let i = 0; i < length - 1; i++) { // 3:要找出到其余顶点的最短路径
 
+      console.log(`第${i}次执行程序!`);
       let u = minDistance(dist, visited); // 4:从尚未处理的顶点中选出距离最近的顶点
-
       visited[u] = true; // 5:把选出的顶点标为 visited ,以免重复计算
 
       for (let v = 0; v < length; v++) {
@@ -59,6 +60,7 @@ function ShortestPath(graph) {
             dist[v] : 表示 A 到 v顶点的距离的最短值
             说明:
                 A 到 v顶点 的距离的最短值 加上 u顶点 到 v顶点 的距离 小于 A 到 v顶点 的距离的最短值
+
          */
         if (!visited[v] && this.graph[u][v] != 0 && dist[u] != INF && dist[u] + this.graph[u][v] < dist[v]) { // 6:
           dist[v] = dist[u] + this.graph[u][v]; // 7:
@@ -86,15 +88,18 @@ let graph = [
 let shortestPath = new ShortestPath(graph);
 
 let dist = shortestPath.dijkstra(0);
-console.log('dist:' + dist);
-console.log(dist);
+// console.log('dist:' + dist);
+// console.log(dist);
 for (i = 0; i < dist.length; i++) {
-  console.log(i + '\t\t' + dist[i]);
+  // console.log(i + '\t\t' + dist[i]);
   if (dist[i] === 0) {
     dist.splice(i, 1)
   }
 }
-
+/*
+for (let j = 0; j < dist.length; j++) {
+  console.log(`${arr[0]} --> ${arr[j + 1]} 的最短距离为: ${dist[j]}`)
+}
 var maxN = Math.max.apply(null, dist);
 var minN = Math.min.apply(null, dist);
-console.log('最小值:' + minN);
+console.log('最小值:' + minN);*/
