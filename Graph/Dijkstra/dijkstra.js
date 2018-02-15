@@ -42,7 +42,7 @@ function ShortestPath(graph) {
 
     for (let i = 0; i < length - 1; i++) { // 3:要找出到其余顶点的最短路径
 
-      console.log(`第${i+1}次执行程序!`);
+      console.log(`第${i + 1}次执行程序!`);
       let u = minDistance(dist, visited); // 4:从尚未处理的顶点中选出距离最近的顶点
       visited[u] = true; // 5:把选出的顶点标为 visited ,以免重复计算
 
@@ -97,8 +97,8 @@ let dist = shortestPath.dijkstra(n);
 //   }
 // }
 for (let j = 0; j < dist.length; j++) {
-  if(n !== j){
-    if(dist[j] < Number.MAX_SAFE_INTEGER){
+  if (n !== j) {
+    if (dist[j] < Number.MAX_SAFE_INTEGER) {
       console.log(`${arr[n]} --> ${arr[j]} 的最短距离为: ${dist[j]}`)
     } else {
       console.log(`${arr[n]} --> ${arr[j]} 没有最短路径`)
