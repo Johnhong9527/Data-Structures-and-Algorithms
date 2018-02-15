@@ -2,14 +2,14 @@ function ShortestPath(graph) {
 
   this.graph = graph;
 
-  var INF = Number.MAX_SAFE_INTEGER;
+  let INF = Number.MAX_SAFE_INTEGER;
 
-  var minDistance = function (dist, visited) {
+  let minDistance = function (dist, visited) {
 
-    var min = INF,
+    let min = INF,
       minIndex = -1;
 
-    for (var v = 0; v < dist.length; v++) {
+    for (let v = 0; v < dist.length; v++) {
       if (visited[v] == false && dist[v] <= min) {
         min = dist[v];
         minIndex = v;
@@ -21,24 +21,24 @@ function ShortestPath(graph) {
 
   this.dijkstra = function (src) {
 
-    var dist = [],
+    let dist = [],
       visited = [],
       length = this.graph.length;
 
-    for (var i = 0; i < length; i++) {
+    for (let i = 0; i < length; i++) {
       dist[i] = INF;
       visited[i] = false;
     }
 
     dist[src] = 0;
 
-    for (var i = 0; i < length - 1; i++) {
+    for (let i = 0; i < length - 1; i++) {
 
-      var u = minDistance(dist, visited);
+      let u = minDistance(dist, visited);
 
       visited[u] = true;
 
-      for (var v = 0; v < length; v++) {
+      for (let v = 0; v < length; v++) {
         if (!visited[v] && this.graph[u][v] != 0 && dist[u] != INF && dist[u] + this.graph[u][v] < dist[v]) {
           dist[v] = dist[u] + this.graph[u][v];
         }
@@ -50,7 +50,7 @@ function ShortestPath(graph) {
 
   this.floydWarshall = function () {
 
-    var dist = [],
+    let dist = [],
       length = this.graph.length,
       i, j, k;
 
