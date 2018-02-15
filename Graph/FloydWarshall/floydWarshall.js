@@ -19,6 +19,14 @@ function ShortestPath(graph) {
       for (i = 0; i < length; i++) {
         for (j = 0; j < length; j++) {
           // 判断i经过顶点k到达j的路径是否比已有的最短路径更短
+          console.log('k ' + k);
+          console.log('i ' + i);
+          console.log('j ' + j);
+          console.log('dist[i][k]: ' + dist[i][k]);
+          console.log('dist[k][j]: ' + dist[k][j]);
+          console.log('dist[i][j]: ' + dist[i][j]);
+          console.log(dist[i][k] + dist[k][j] < dist[i][j]);
+          console.log(`--------------------------------------------`)
           if (dist[i][k] + dist[k][j] < dist[i][j]) {
             // 如果是更短的路径，则更新最短路径的值
             dist[i][j] = dist[i][k] + dist[k][j];
