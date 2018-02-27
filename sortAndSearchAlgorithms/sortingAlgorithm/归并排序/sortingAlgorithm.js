@@ -8,11 +8,11 @@ function ArrayList() {
   };
   this.toString = function () { // 3:
     return array.join();
-  }
+  };
   // 归并排序
   this.mergeSort = function () {
     array = mergeSortRec(array);
-  }
+  };
   // 辅助函数
   var mergeSortRec = function (array) {
     var length = array.length;
@@ -20,25 +20,25 @@ function ArrayList() {
       return array;
     }
     var mid = Math.floor(length / 2),
-      left = array.slice(0,mid),
-      right = array.slice(mid,length);
-    return merge(mergeSortRec(left),mergeSortRec(right));
-  }
+      left = array.slice(0, mid),
+      right = array.slice(mid, length);
+    return merge(mergeSortRec(left), mergeSortRec(right));
+  };
   var merge = function (left, right) {
     var result = [],
       il = 0,
       ir = 0;
-    while(il < left.length && ir < right.length){
-      if(left[il] < right[ir]){
+    while (il < left.length && ir < right.length) {
+      if (left[il] < right[ir]) {
         result.push(left[il++])
       } else {
         result.push(right[ir++])
       }
     }
-    while (il < left.length){
+    while (il < left.length) {
       result.push(left[il++])
     }
-    while (ir < right.length){
+    while (ir < right.length) {
       result.push(right[ir++])
     }
     return result;
