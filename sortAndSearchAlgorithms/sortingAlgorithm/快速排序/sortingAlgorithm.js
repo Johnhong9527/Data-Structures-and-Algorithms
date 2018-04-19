@@ -28,9 +28,11 @@ function ArrayList() {
       index = partition(array, left, right);
       // console.log('----')
       if (left < index - 1) {
+        console.log(`left ${left} < index ${index} - 1: ${left < index - 1}`)
         quick(array, left, index - 1);
       }
       if (index < right) {
+        console.log(`index ${index} < right ${right}: ${index < right}`)
         quick(array, index, right);
       }
     }
