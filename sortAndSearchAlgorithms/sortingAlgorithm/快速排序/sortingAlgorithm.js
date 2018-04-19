@@ -2,7 +2,7 @@
 
 // 创建待处理数组
 function ArrayList() {
-  var array = [3, 5, 1, 2, 4, 7, 6]; // 1:
+  var array = [3, 5, 1, 6, 4, 7, 2]; // 1:
   this.insert = function (item) {
     // 2:
     array.push(item);
@@ -26,10 +26,7 @@ function ArrayList() {
     if (array.length > 1) {
       // 设置 index 的值为
       index = partition(array, left, right);
-      console.log('left  ' + left)
-      console.log('right  ' + right)
-      console.log('index  ' + index)
-      console.log(' ')
+      // console.log('----')
       if (left < index - 1) {
         quick(array, left, index - 1);
       }
@@ -46,15 +43,18 @@ function ArrayList() {
       j = right;
     while (i <= j) {
       while (array[i] < pivot) {
+        // console.log(`i: array[${i}]:${array[i]} < pivot:${pivot} = ${array[i] < pivot}`)
         i++;
       }
+      // console.log(`i  ${i}`);
       while (array[j] > pivot) {
+        // console.log(`j: array[${j}]:${array[j]} > pivot:${pivot} = ${array[j] > pivot}`)
         j--;
       }
+      // console.log(`j  ${j}`);
       if (i <= j) {
         // 交换元素，步骤思路
         /*
-
         第一次划分操作： 
           left = 0
           right = 6
@@ -108,8 +108,11 @@ function ArrayList() {
         swap(array, i, j);
         i++;
         j--;
+        // console.log(`执行交换`);
       }
     }
+    console.log(array);
+    console.log(` `);
     return i;
   };
   var swap = function (array, index1, index2) {
@@ -134,6 +137,6 @@ console.log(array.toString());
 array.mergeSort();
 console.log(array.toString());
 */
-
+console.log('[ 3, 5, 1, 2, 4, 7, 6 ]');
 let a = new ArrayList;
 a.quickSort()
