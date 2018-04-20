@@ -2,61 +2,53 @@
 
 // 创建待处理数组
 function ArrayList() {
-  var array = []; // 1:
+  var array = [3, 5, 1, 6, 4, 7, 2]; // 1:
   this.insert = function (item) { // 2:
     array.push(item);
   };
   this.toString = function () { // 3:
     return array.join();
   };
-  // 归并排序
-  this.mergeSort = function () {
-    array = mergeSortRec(array);
+  // 堆排序
+  this.heapSort = function () {
+    var heapSize = array.length;
+    buildHeap(array); // {1}
+    while (heapSize > 1) {
+      heapSize--;
+      swap(array, 0, heapSize); // {2}
+      heapify(array, heapSize, 0); // {3}
+    }
   };
   // 辅助函数
-  var mergeSortRec = function (array) {
-    var length = array.length;
-    if (length === 1) {
-      return array;
+  var buildHeap = function (array) {
+    var heapSize = array.length;
+    for (var i = Math.floor(array.length / 2); i >= 0; i--) {
+      heapify(array, heapSize, i)
     }
-    var mid = Math.floor(length / 2),
-      left = array.slice(0, mid),
-      right = array.slice(mid, length);
-    return merge(mergeSortRec(left), mergeSortRec(right));
+  }
+  var heapify = function (array, heapSize, i) {
+    var left = i * 2 + 1,
+      right = i * 2 + 2,
+      largest = i;
+    if (left < heapSize && array[left] > array[largest]) {
+      largest = left;
+    }
+    if (right < heapSize && array[right] > array[largest]) {
+      largest = right
+    }
+    if (largest !== i) {
+      swap(array, i, largest);
+      heapify(array, heapSize, largest);
+    }
+  }
+  var swap = function (array, index1, index2) {
+    var aux = array[index1];
+    array[index1] = array[index2];
+    array[index2] = aux;
   };
-  var merge = function (left, right) {
-    var result = [],
-      il = 0,
-      ir = 0;
-    while (il < left.length && ir < right.length) {
-      if (left[il] < right[ir]) {
-        result.push(left[il++])
-      } else {
-        result.push(right[ir++])
-      }
-    }
-    while (il < left.length) {
-      result.push(left[il++])
-    }
-    while (ir < right.length) {
-      result.push(right[ir++])
-    }
-    return result;
-  }
+
 }
-
-
-// 检测
-function creatNonSortedArray(size) {
-  var array = new ArrayList();
-  for (var i = size; i > 0; i--) {
-    array.insert(i);
-  }
-  return array;
-}
-
-var array = creatNonSortedArray(8);
-console.log(array.toString());
-array.mergeSort();
+var array = new ArrayList();
+array.heapSort();
 console.log(array.toString());
 

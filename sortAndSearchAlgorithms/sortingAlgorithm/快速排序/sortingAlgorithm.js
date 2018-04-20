@@ -65,7 +65,7 @@ function ArrayList() {
     }
     // console.log(array);
     // console.log(` `);
-    console.log(`i  ${i}`)
+    console.log(`i:${i};  j:${j};   pivot:${pivot}`);
     return i;
   };
   var swap = function (array, index1, index2) {
