@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c858e7-fd43-4b2d-90a1-51eed076a9a9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/sortingAlgorithm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/wiki/es6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/wiki/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/快速排序/others/simplify.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter03/01-StackES6.js" beforeDir="false" afterPath="$PROJECT_DIR$/LearningJavaScriptDataStructuresandAlgorithmsSecondEdition_Code/chapter03/01-StackES6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/归并排序/sortingAlgorithm.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/归并排序/sortingAlgorithm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/快速排序/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/快速排序/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/快速排序/sortingAlgorithm.js" beforeDir="false" afterPath="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/快速排序/sortingAlgorithm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,20 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="es6.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/wiki/es6.js">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/归并排序/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simplify.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/快速排序/others/simplify.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="25">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -47,17 +29,17 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/快速排序/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1696">
+            <state relative-caret-position="-375">
               <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="625">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -87,8 +69,9 @@
         <option value="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/快速排序/others/1.js" />
         <option value="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/快速排序/others/2.js" />
         <option value="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/快速排序/others/simplify.js" />
-        <option value="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/README.md" />
         <option value="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/wiki/es6.js" />
+        <option value="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/归并排序/README.md" />
+        <option value="$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/README.md" />
       </list>
     </option>
   </component>
@@ -160,6 +143,28 @@
               <item name="sortingAlgorithm" type="462c0819:PsiDirectoryNode" />
               <item name="堆排序" type="462c0819:PsiDirectoryNode" />
               <item name="wiki" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="sortAndSearchAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="sortingAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="归并排序" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="sortAndSearchAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="sortingAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="快速排序" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="sortAndSearchAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="sortingAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="快速排序" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,26 +243,26 @@
       <workItem from="1524188972231" duration="1517000" />
       <workItem from="1524191754267" duration="1629000" />
       <workItem from="1524193565228" duration="802000" />
-      <workItem from="1524194438692" duration="13355000" />
+      <workItem from="1524194438692" duration="14469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22269000" />
+    <option name="totallyTimeSpent" value="23383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-11" width="1855" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" weight="0.23397261" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.23397261" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info active="true" id="Run" order="4" visible="true" weight="0.23780821" />
+      <window_info id="Run" order="4" weight="0.23780821" />
       <window_info id="npm" order="0" side_tool="true" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32903227" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -387,7 +392,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/插入排序/README.md" />
     <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/选择排序/README.md" />
-    <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/归并排序/README.md" />
     <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/冒泡排序/README.md" />
     <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/归并排序/sortingAlgorithm.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -462,24 +466,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/wiki/es6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/归并排序/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/快速排序/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1696">
+        <state relative-caret-position="-375">
           <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sortAndSearchAlgorithms/sortingAlgorithm/堆排序/wiki/es6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="625">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
